@@ -72,7 +72,7 @@ const config = {
             },
             {
               label: "維基百科用戶頁",
-              href: "https://zh.m.wikipedia.org/wiki/User:A0977024689",
+              href: `https://zh.m.wikipedia.org/wiki/User:A0977024689`,
             },
           ],
         },
