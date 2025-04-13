@@ -52,7 +52,6 @@ const config = {
       navbar: {
         title: "発財皇帝",
         logo: {
-          alt: "My Site Logo",
           src: "https://styles.redditmedia.com/t5_2qhk5/styles/communityIcon_v58lvj23zo551.jpg",
         },
         items: [
