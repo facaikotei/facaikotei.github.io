@@ -6,25 +6,25 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: gray;
-  --ifm-color-primary-dark: gray;
-  --ifm-color-primary-darker: gray;
-  --ifm-color-primary-darkest: gray;
-  --ifm-color-primary-light: gray;
-  --ifm-color-primary-lighter: gray;
-  --ifm-color-primary-lightest: gray;
+  --ifm-color-primary: LightPink;
+  --ifm-color-primary-dark: LightPink;
+  --ifm-color-primary-darker: LightPink;
+  --ifm-color-primary-darkest: LightPink;
+  --ifm-color-primary-light: LightPink;
+  --ifm-color-primary-lighter: LightPink;
+  --ifm-color-primary-lightest: LightPink;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: silver;
-  --ifm-color-primary-dark: silver;
-  --ifm-color-primary-darker: silver;
-  --ifm-color-primary-darkest: silver;
-  --ifm-color-primary-light: silver;
-  --ifm-color-primary-lighter: silver;
-  --ifm-color-primary-lightest: silver;
+  --ifm-color-primary: LightPink;
+  --ifm-color-primary-dark: LightPink;
+  --ifm-color-primary-darker: LightPink;
+  --ifm-color-primary-darkest: LightPink;
+  --ifm-color-primary-light: LightPink;
+  --ifm-color-primary-lighter: LightPink;
+  --ifm-color-primary-lightest: LightPink;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
