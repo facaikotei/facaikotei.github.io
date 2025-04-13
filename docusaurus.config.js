@@ -71,6 +71,10 @@ const config = {
             href: `https://github.com/${organizationName}`,
             label: "GitHub",
           },
+          {
+            href: "https://zh.m.wikipedia.org/wiki/User:A0977024689",
+            label: "維基百科用戶頁",
+          },
         ],
       },
       footer: {
