@@ -37,7 +37,12 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+        },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -56,7 +61,13 @@ const config = {
         },
         items: [
           {
-            href: `https://github.com/${organizationName}/${projectName}`,
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Tutorial",
+          },
+          {
+            href: `https://github.com/${organizationName}`,
             label: "GitHub",
             position: "right",
           },
@@ -67,7 +78,7 @@ const config = {
         links: [
           {
             label: "GitHub",
-            href: `https://github.com/${organizationName}/${projectName}`,
+            href: `https://github.com/${organizationName}`,
           },
           {
             label: "維基百科用戶頁",
