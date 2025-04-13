@@ -37,21 +37,8 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        },
-        //blog: false,
-        /*
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        },
-        */
+        docs: false,
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -69,15 +56,6 @@ const config = {
           src: "https://styles.redditmedia.com/t5_2qhk5/styles/communityIcon_v58lvj23zo551.jpg",
         },
         items: [
-          /*
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          */
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
@@ -87,49 +65,6 @@ const config = {
       },
       footer: {
         style: "dark",
-        /*
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: `https://github.com/${organizationName}/${projectName}`,
-              },
-            ],
-          },
-        ],
-        */
         copyright: `Copyright © ${new Date().getFullYear()} facaikotei. Built with Docusaurus.`,
       },
       prism: {
