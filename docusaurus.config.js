@@ -61,7 +61,12 @@ const config = {
           src: "https://styles.redditmedia.com/t5_2qhk5/styles/communityIcon_v58lvj23zo551.jpg",
         },
         items: [
-          "首頁",
+          {
+            type: "doc",
+            docId: "首頁",
+            position: "left",
+            //label: "Tutorial",
+          },
           {
             href: `https://github.com/${organizationName}`,
             label: "GitHub",
