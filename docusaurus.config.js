@@ -66,7 +66,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "",
+            title: "外部連結",
             items: [
               {
                 label: "GitHub",
