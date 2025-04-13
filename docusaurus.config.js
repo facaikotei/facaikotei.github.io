@@ -43,7 +43,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        blog: false,
+        //blog: false,
         /*
         blog: {
           showReadingTime: true,
@@ -69,13 +69,13 @@ const config = {
           src: "https://styles.redditmedia.com/t5_2qhk5/styles/communityIcon_v58lvj23zo551.jpg",
         },
         items: [
+          /*
           {
             type: "doc",
             docId: "intro",
             position: "left",
             label: "Tutorial",
           },
-          /*
           { to: "/blog", label: "Blog", position: "left" },
           */
           {
