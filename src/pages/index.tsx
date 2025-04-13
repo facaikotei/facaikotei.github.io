@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 //import styles from './index.module.css';
 
+/*
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -18,13 +19,14 @@ function HomepageHeader() {
     </header>
   );
 }
+*/
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout>
-      <main>
-        <div>
+      
+        
           <iframe
             style={{
               width:"-webkit-fill-available",
@@ -33,8 +35,8 @@ export default function Home(): JSX.Element {
             }}
             src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
           ></iframe>
-        </div>
-      </main>
+        
+      
     </Layout>
   );
 }
