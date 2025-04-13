@@ -5,9 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-//import styles from './index.module.css';
+import styles from './index.module.css';
 
-/*
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -15,28 +14,27 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <iframe
+          style={{
+            width:"-webkit-fill-available",
+            maxWidth:"640",
+            height:"100%",
+          }}
+          src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
+        ></iframe>
       </div>
     </header>
   );
 }
-*/
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout>
-      
-        
-          <iframe
-            style={{
-              width:"-webkit-fill-available",
-              maxWidth:"640",
-              height:"100%",
-            }}
-            src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
-          ></iframe>
-        
-      
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
     </Layout>
   );
 }
