@@ -64,19 +64,21 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: {
-          title: "",
-          items: [
-            {
-              label: "GitHub",
-              href: `https://github.com/${organizationName}/${projectName}`,
-            },
-            {
-              label: "維基百科用戶頁",
-              href: "https://zh.m.wikipedia.org/wiki/User:A0977024689",
-            },
-          ],
-        },
+        links: [
+          {
+            title: "",
+            items: [
+              {
+                label: "GitHub",
+                href: `https://github.com/${organizationName}/${projectName}`,
+              },
+              {
+                label: "維基百科用戶頁",
+                href: "https://zh.m.wikipedia.org/wiki/User:A0977024689",
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} facaikotei. Built with Docusaurus.`,
       },
       prism: {
