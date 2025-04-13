@@ -24,13 +24,12 @@ export default function Home(): JSX.Element {
   return (
     <Layout>
       <main>
-        <HomepageFeatures />
         <div>
           <iframe
             style={{
               width:"-webkit-fill-available",
               maxWidth:"640",
-              height:"480",
+              height:"900",
             }}
             src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
           ></iframe>
