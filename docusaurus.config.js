@@ -58,12 +58,18 @@ const config = {
           {
             href: `https://drive.google.com/drive/folders/1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA?usp=sharing`,
             label: "正版安裝包＆盜版註冊機",
-            position: "left",
+          },
+          {
+            href: `https://www.youtube.com/playlist?list=PLoXvzVXdrYkOEVLu-lYpiVq6TauPln7OP`,
+            label: "微算機",
+          },
+          {
+            href: `https://downloads.intel.com/akdlm/software/acdsinst/15.0/145/ib_tar/Quartus-web-15.0.0.145-windows.tar`,
+            label: "Quartus-web-15.0.0.145-windows.tar",
           },
           {
             href: `https://github.com/${organizationName}`,
             label: "GitHub",
-            position: "right",
           },
         ],
       },
