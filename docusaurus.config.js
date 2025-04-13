@@ -43,6 +43,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
+        blog: false,
         /*
         blog: {
           showReadingTime: true,
