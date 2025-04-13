@@ -10,7 +10,7 @@ const projectName = "facaikotei.github.io";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "発財皇帝",
-  tagline: "倉庫",
+  tagline: "收集好東西",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
@@ -38,10 +38,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+          //editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         blog: false,
         theme: {
