@@ -37,13 +37,7 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -62,10 +56,9 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "首頁",
+            href: `https://drive.google.com/drive/folders/1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA?usp=sharing`,
+            label: "正版安裝包＆盜版註冊機",
             position: "left",
-            //label: "Tutorial",
           },
           {
             href: `https://github.com/${organizationName}`,
