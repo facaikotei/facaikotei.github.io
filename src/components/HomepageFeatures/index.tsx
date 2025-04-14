@@ -15,8 +15,14 @@ const FeatureList: FeatureItem[] = [
     //Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <iframe
+          style={{
+            width:"-webkit-fill-available",
+            maxWidth:"640",
+            height:"100%",
+          }}
+          src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
+        ></iframe>
       </>
     ),
   },
