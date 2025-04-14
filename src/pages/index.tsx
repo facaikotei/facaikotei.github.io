@@ -36,6 +36,8 @@ export default function Home(): JSX.Element {
           height:"2000",
         }}
         src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
+        width={1000}
+        height={1000}
       ></iframe>
     </Layout>
   );
