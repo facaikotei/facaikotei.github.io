@@ -12,12 +12,12 @@ export default function Home(): JSX.Element {
       <main>
         <iframe
           style={{
-            width:"-webkit-fill-available",
+            width:"100vw",
             maxWidth:640,
+            height:480,
           }}
           src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
-          height={480}
-        ></iframe>
+          ></iframe>
       </main>
     </Layout>
   );
