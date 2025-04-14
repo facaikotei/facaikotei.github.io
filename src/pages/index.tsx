@@ -3,23 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-//import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-//import styles from './index.module.css';
-
-/*
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-      </div>
-    </header>
-  );
-}
-*/
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -33,11 +17,10 @@ export default function Home(): JSX.Element {
         style={{
           width:"-webkit-fill-available",
           maxWidth:"640",
-          height:"2000",
         }}
         src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
-        width={1000}
-        height={1000}
+        width={100%}
+        height={480}
       ></iframe>
     </Layout>
   );
