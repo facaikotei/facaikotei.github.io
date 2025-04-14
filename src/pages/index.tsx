@@ -14,14 +14,6 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <iframe
-          style={{
-            width:"-webkit-fill-available",
-            maxWidth:"640",
-            height:"100%",
-          }}
-          src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
-        ></iframe>
       </div>
     </header>
   );
