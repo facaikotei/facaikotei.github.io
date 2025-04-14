@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
           maxWidth:"640",
         }}
         src="https://drive.google.com/embeddedfolderview?id=1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA"
-        width={100%}
+        width="100%"
         height={480}
       ></iframe>
     </Layout>
