@@ -65,15 +65,7 @@ const config = {
           },
           {
             href: `https://downloads.intel.com/akdlm/software/acdsinst/15.0/145/ib_tar/Quartus-web-15.0.0.145-windows.tar`,
-            label: "Quartus-web-15.0.0.145-windows.tar",
-          },
-          {
-            href: `https://github.com/${organizationName}`,
-            label: "GitHub",
-          },
-          {
-            href: "https://zh.m.wikipedia.org/wiki/User:A0977024689",
-            label: "維基百科用戶頁",
+            label: "Quartus下載",
           },
         ],
       },
