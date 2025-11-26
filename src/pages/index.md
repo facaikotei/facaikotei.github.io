@@ -1,1 +1,3 @@
-<https://drive.google.com/drive/folders/1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA?usp=drive_link>
+https://drive.google.com/drive/folders/1uc4Y4HKf4RmRBiaxT5O6zkZdkfcAzgtA?usp=drive_link
+https://github.com/facaikotei/facaikotei.github.io/releases
+https://youtube.com/playlist?list=PLoXvzVXdrYkOEVLu-lYpiVq6TauPln7OP
